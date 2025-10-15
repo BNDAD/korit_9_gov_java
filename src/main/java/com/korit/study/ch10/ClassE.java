@@ -1,0 +1,24 @@
+package com.korit.study.ch10;
+
+public class ClassE {
+    //toString()
+    String name;
+    int age;
+    String address;
+
+    public ClassE(String name, int age, String address) {
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+
+
+    @Override
+    public String toString() {
+        return "ClassE{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", address='" + address + '\'' +
+                '}';
+    }
+}

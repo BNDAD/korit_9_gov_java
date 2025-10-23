@@ -2,7 +2,7 @@ package com.korit.study.ch23;
 
 import java.util.ArrayList;
 
-public class CollecttionMAan {
+public class CollectionMain {
     public static void main(String[] args) {
 
         ArrayList list = new ArrayList();
